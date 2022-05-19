@@ -1,0 +1,979 @@
+@charset "UTF-8";
+/*Extend*/
+.boton--aceptar, .botton--cancelar {
+  text-align: center;
+  border-radius: 20px; }
+
+.boton--aceptar {
+  background-color: #045372;
+  color: white; }
+
+.botton--cancelar {
+  background-color: #4c024e;
+  color: white; }
+
+/*Extend aplicado en videos*/
+.VideoIndex1, .VideoIndex2 {
+  width: 260px;
+  height: 200px;
+  margin-left: auto; }
+
+/*Mixin*/
+.ContactoContainer .VideoIndex1, .ContactoContainer .VideoIndex2, .ContactoContainer .VideoIndex2 {
+  width: 470px;
+  height: 290px; }
+
+/*mapa redes*/
+.btn--facebook {
+  background-color: blue;
+  width: 20px;
+  height: 20px; }
+
+.btn--twitter {
+  background-color: red;
+  width: 20px;
+  height: 20px; }
+
+.btn--tiktok {
+  background-color: black;
+  width: 20px;
+  height: 20px; }
+
+.btn--whatssap {
+  background-color: green;
+  width: 20px;
+  height: 20px; }
+
+/*map-geto*/
+.ReseñasIndex {
+  text-align: center;
+  color: blueviolet;
+  text-decoration: underline;
+  background-color: aqua; }
+
+.RemomendacionesIndex {
+  text-align: center;
+  text-decoration: underline;
+  color: violet; }
+
+/*Condicionales*/
+.BodyIndex {
+  background-image: linear-gradient(to bottom, #492af5, white); }
+
+.BodyDrama1 {
+  background-image: linear-gradient(to bottom, #492af5, white); }
+
+.BodyTerror {
+  background-image: linear-gradient(to bottom, #963b59, white); }
+
+.RecomendacionesBody {
+  background-image: linear-gradient(to bottom, #3593be, white); }
+
+/*futura galeria de imagenes*/
+.img-1 {
+  width: 85px;
+  height: 115px; }
+
+.img-2 {
+  width: 170px;
+  height: 230px; }
+
+.img-3 {
+  width: 255px;
+  height: 345px; }
+
+.img-4 {
+  width: 340px;
+  height: 460px; }
+
+.img-5 {
+  width: 425px;
+  height: 575px; }
+
+.gif-1 {
+  width: 100px;
+  height: 25px; }
+
+.gif-2 {
+  width: 200px;
+  height: 50px; }
+
+.gif-3 {
+  width: 300px;
+  height: 75px; }
+
+/*each de colores*/
+.red {
+  color: red; }
+
+.blue {
+  color: blue; }
+
+.black {
+  color: black; }
+
+.white {
+  color: white; }
+
+/*Terror Responsive*/
+@media screen and (max-width: 530px) {
+  .ContainerTerror {
+    display: flex;
+    flex-direction: column; }
+    .ContainerTerror .cajaa1 {
+      display: flex;
+      flex-direction: column; }
+    .ContainerTerror .cajaa2 {
+      display: flex;
+      flex-direction: column;
+      margin-top: -350px; }
+    .ContainerTerror .cajaa4 {
+      display: flex;
+      flex-direction: column;
+      margin-top: -350px;
+      margin-left: -350px; }
+    .ContainerTerror .cajaa5 {
+      display: flex;
+      flex-direction: column;
+      margin-top: -650px;
+      margin-bottom: -500px; }
+    .ContainerTerror .TituloTerror {
+      font-size: 15px; } }
+
+/*Drama Responsive*/
+@media screen and (max-width: 530px) {
+  .ContenidoDrama {
+    display: flex;
+    flex-direction: column; }
+    .ContenidoDrama .caaja1 {
+      display: flex;
+      flex-direction: column; }
+    .ContenidoDrama .caaja2 {
+      display: flex;
+      flex-direction: row;
+      margin-top: 500px;
+      margin-left: -300px; }
+    .ContenidoDrama .caaja3 {
+      display: flex;
+      flex-direction: column;
+      margin-top: -900px; }
+    .ContenidoDrama .caaja4 {
+      display: flex;
+      flex-direction: column; }
+    .ContenidoDrama .caaja5 {
+      display: flex;
+      flex-direction: column;
+      margin-top: 100px;
+      margin-left: -150px;
+      margin-bottom: 150px; }
+    .ContenidoDrama .caaja6 {
+      display: flex;
+      flex-direction: column; }
+    .ContenidoDrama .VolverDrama {
+      font-size: 17px; }
+    .ContenidoDrama .TituloDrama {
+      font-size: 20px; }
+    .ContenidoDrama .TrailerDrama1 {
+      height: 200px;
+      width: 300px; } }
+
+/*Index Responsive*/
+@media screen and (max-width: 530px) {
+  .containerIndex {
+    display: flex;
+    flex-direction: column; }
+    .containerIndex .Caja1 {
+      display: flex;
+      flex-direction: column;
+      margin-left: -200px; }
+    .containerIndex .Caja2 {
+      display: flex;
+      flex-direction: column;
+      margin-left: -200px; }
+      .containerIndex .Caja2 .InicioRecomendadas {
+        display: flex;
+        flex-direction: column;
+        margin-left: -50px; }
+    .containerIndex .Caja3 {
+      display: flex;
+      flex-direction: column;
+      margin-left: -220px; }
+    .containerIndex .Caja4 {
+      display: flex;
+      flex-direction: column;
+      margin-left: -100px; }
+    .containerIndex .Caja5 {
+      display: flex;
+      flex-direction: column;
+      margin-top: -200px; }
+    .containerIndex .Caja7 {
+      display: flex;
+      flex-direction: column;
+      margin-left: -500px; }
+    .containerIndex .InicioRecomendadas {
+      display: flex;
+      flex-direction: column; }
+    .containerIndex .videoInicio1 {
+      width: 200px;
+      height: 180px; }
+  .RemomendacionesIndex {
+    font-size: 18px; } }
+
+/*Responsive Recomendados*/
+@media screen and (max-width: 530px) {
+  .ContenidoCinesRec {
+    display: flex; }
+    .ContenidoCinesRec .caja1 {
+      display: flex;
+      flex-direction: column; }
+    .ContenidoCinesRec .caja2 {
+      display: flex;
+      flex-direction: column; }
+    .ContenidoCinesRec .caja3 {
+      display: flex;
+      flex-direction: column; }
+    .ContenidoCinesRec .caja4 {
+      display: flex;
+      flex-direction: column; }
+      .ContenidoCinesRec .caja4 .TextoCine {
+        font-size: 15px; }
+    .ContenidoCinesRec .caja5 {
+      display: flex;
+      flex-direction: column; }
+    .ContenidoCinesRec .caja6 {
+      display: flex;
+      flex-direction: column; }
+      .ContenidoCinesRec .caja6 .Mapa3 {
+        width: 100px; } }
+
+/*Extend*/
+.boton--aceptar, .botton--cancelar {
+  text-align: center;
+  border-radius: 20px; }
+
+.boton--aceptar {
+  background-color: #045372;
+  color: white; }
+
+.botton--cancelar {
+  background-color: #4c024e;
+  color: white; }
+
+/*Extend aplicado en videos*/
+.VideoIndex1, .VideoIndex2 {
+  width: 260px;
+  height: 200px;
+  margin-left: auto; }
+
+/*Mixin*/
+.ContactoContainer .VideoIndex1, .ContactoContainer .VideoIndex2, .ContactoContainer .VideoIndex2 {
+  width: 470px;
+  height: 290px; }
+
+/*mapa redes*/
+.btn--facebook {
+  background-color: blue;
+  width: 20px;
+  height: 20px; }
+
+.btn--twitter {
+  background-color: red;
+  width: 20px;
+  height: 20px; }
+
+.btn--tiktok {
+  background-color: black;
+  width: 20px;
+  height: 20px; }
+
+.btn--whatssap {
+  background-color: green;
+  width: 20px;
+  height: 20px; }
+
+/*map-geto*/
+.ReseñasIndex {
+  text-align: center;
+  color: blueviolet;
+  text-decoration: underline;
+  background-color: aqua; }
+
+.RemomendacionesIndex {
+  text-align: center;
+  text-decoration: underline;
+  color: violet; }
+
+/*Condicionales*/
+.BodyIndex {
+  background-image: linear-gradient(to bottom, #492af5, white); }
+
+.BodyDrama1 {
+  background-image: linear-gradient(to bottom, #492af5, white); }
+
+.BodyTerror {
+  background-image: linear-gradient(to bottom, #963b59, white); }
+
+.RecomendacionesBody {
+  background-image: linear-gradient(to bottom, #3593be, white); }
+
+/*futura galeria de imagenes*/
+.img-1 {
+  width: 85px;
+  height: 115px; }
+
+.img-2 {
+  width: 170px;
+  height: 230px; }
+
+.img-3 {
+  width: 255px;
+  height: 345px; }
+
+.img-4 {
+  width: 340px;
+  height: 460px; }
+
+.img-5 {
+  width: 425px;
+  height: 575px; }
+
+.gif-1 {
+  width: 100px;
+  height: 25px; }
+
+.gif-2 {
+  width: 200px;
+  height: 50px; }
+
+.gif-3 {
+  width: 300px;
+  height: 75px; }
+
+/*each de colores*/
+.red {
+  color: red; }
+
+.blue {
+  color: blue; }
+
+.black {
+  color: black; }
+
+.white {
+  color: white; }
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px; }
+
+.foto4 {
+  transition: height 5s, width 5s; }
+  .foto4:hover {
+    height: 400px;
+    width: 260px;
+    transform: scale(1); }
+
+.foto3 {
+  transition: height 5s, width 5s; }
+  .foto3:hover {
+    height: 400px;
+    width: 260px;
+    transform: scale(1); }
+
+.foto2 {
+  transition: height 5s, width 5s; }
+  .foto2:hover {
+    height: 400px;
+    width: 260px;
+    transform: scale(1); }
+
+.foto1 {
+  transition: height 5s, width 5s; }
+  .foto1:hover {
+    height: 400px;
+    width: 260px;
+    transform: scale(1); }
+
+@keyframes aparecer5 {
+  0% {
+    opacity: 5%; }
+  20% {
+    opacity: 10%; }
+  40% {
+    opacity: 30%; }
+  60% {
+    opacity: 60%; }
+  80% {
+    opacity: 80%; }
+  100% {
+    opacity: 100%; } }
+
+.TituloCines {
+  color: black;
+  animation-name: aparecer5;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+@keyframes colorfondo {
+  0% {
+    background-color: white; }
+  40% {
+    background-color: gray; }
+  80% {
+    background-color: lemonchiffon; }
+  100% {
+    background-color: lightsalmon; } }
+
+.RecomendacionTerror1 {
+  font-size: 50px;
+  animation-name: colorfondo;
+  animation-duration: 6s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite; }
+
+.RecomendacionDrama1 {
+  font-size: 50px;
+  animation-name: colorfondo;
+  animation-duration: 6s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite; }
+
+/*Galeria*/
+.BodyGaleria {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom, #963b59, white); }
+
+/*GRIDS*/
+.ContenidoGaleria {
+  display: grid;
+  grid-template-columns: repeat(3, 0.7fr);
+  grid-template-rows: repeat(6, 0.2fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 10px;
+  grid-template-areas: "boox1 . boox2" "boox3 boox3 boox3" "boox4 boox4 boox4" "boox5 boox5 boox5" "boox6 boox6 boox7" ". . boox8"; }
+
+.boox1 {
+  grid-area: boox1; }
+
+.boox2 {
+  grid-area: boox2; }
+
+.boox3 {
+  grid-area: boox3; }
+
+.boox3 {
+  grid-area: boox3; }
+
+.boox4 {
+  grid-area: boox4; }
+
+.boox5 {
+  grid-area: boox5; }
+
+.boox6 {
+  grid-area: boox6; }
+
+.boox7 {
+  grid-area: boox7; }
+
+.boox8 {
+  grid-area: boox8; }
+
+/*FLEX*/
+.boox1 {
+  display: flex;
+  flex-direction: column; }
+
+.boox2 {
+  display: flex;
+  flex-direction: column; }
+
+.boox3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 50px; }
+
+.boox4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 50px; }
+
+.boox5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 50px; }
+
+.boox6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: end; }
+
+.boox7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  justify-content: left; }
+
+@keyframes aparecerGaleria {
+  0% {
+    opacity: 5%;
+    transform: translateX(-30px); }
+  20% {
+    opacity: 10%; }
+  40% {
+    opacity: 30%; }
+  60% {
+    opacity: 60%; }
+  80% {
+    opacity: 80%; }
+  100% {
+    opacity: 100%;
+    transform: translate(100px); } }
+
+.TituloGaleria {
+  font-size: 60px;
+  font-family: 'Ms Madi', cursive;
+  animation-name: aparecerGaleria;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+.SubTitulo {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Square Peg', cursive;
+  animation-name: SubTitulo;
+  animation-duration: 6s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite; }
+
+@keyframes SubTitulo {
+  0% {
+    background-color: white; }
+  40% {
+    background-color: gray; }
+  80% {
+    background-color: lemonchiffon; }
+  100% {
+    background-color: lightsalmon; } }
+
+.imgGaleria {
+  display: flex;
+  flex-direction: column; }
+  .imgGaleria .listaGaleria {
+    list-style-type: none; }
+
+.ImgGaleria2 {
+  display: flex;
+  flex-direction: column; }
+  .ImgGaleria2 .listaGaleria {
+    list-style-type: none; }
+
+.textoOpinion {
+  display: flex;
+  flex-direction: column; }
+  .textoOpinion .Opinion {
+    height: 20px;
+    transition: all 2s; }
+  .textoOpinion .Opinion:focus {
+    height: 150px;
+    font-size: 20px; }
+
+.MenuPrinc .lista1 {
+  display: none; }
+
+.MenuPrinc input:checked ~ ul {
+  display: block; }
+
+.MenuPrinc .menu1 {
+  font-size: 35px;
+  font-family: fantasy; }
+
+/*CIERRE GALERIA*/
+/*Ciner recomendados*/
+.BodyDrama1 {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom, #963b59, white); }
+
+/*GRIDS*/
+.ContenidoCinesRec {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(9, 0.5fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-areas: "caja3 caja1 caja2" "caja4 caja4 caja4" "caja5 . caja6" "caja5 . caja6" "caja5 . caja6" "caja7 caja7 caja8" "caja7 caja7 caja8" "caja9 caja9 caja9"; }
+
+.caja1 {
+  grid-area: caja1; }
+
+.caja2 {
+  grid-area: caja2; }
+
+.caja3 {
+  grid-area: caja3; }
+
+.caja4 {
+  grid-area: caja4; }
+
+.caja5 {
+  grid-area: caja5; }
+
+.caja6 {
+  grid-area: caja6; }
+
+.caja7 {
+  grid-area: caja7; }
+
+.caja8 {
+  grid-area: caja8; }
+
+.caja9 {
+  grid-area: caja9; }
+
+/*FLEX*/
+.caja1 {
+  display: flex;
+  margin-left: -80px; }
+
+.caja2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 20px; }
+
+.caja3 {
+  display: flex;
+  margin-left: 10px; }
+
+.caja4 {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .caja4 .SubtituloRecomendaciones {
+    color: crimson;
+    font-family: fantasy;
+    text-decoration: underline;
+    animation-name: aparecerGaleria;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; }
+
+.caja5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px; }
+
+.caja6 {
+  flex-direction: column;
+  display: flex; }
+
+.TituloRecomendaciones {
+  animation-name: aparecer5;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+.DescripcionRecomendaciones {
+  animation-name: SubTitulo;
+  animation-duration: 6s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite; }
+
+.titulomapa {
+  text-align: center;
+  font-family: fantasy;
+  color: crimson;
+  text-decoration: underline;
+  font-size: 20px; }
+
+.MenuRecomendaciones .lista2 {
+  display: none; }
+
+.MenuRecomendaciones input:checked ~ ul {
+  display: block; }
+
+.MenuRecomendaciones .menu2 {
+  font-size: 35px;
+  font-family: fantasy; }
+
+.redes1 {
+  display: none; }
+
+input:checked ~ ul {
+  display: block; }
+
+.redes2 {
+  font-size: 35px;
+  font-family: fantasy; }
+
+.caja9 {
+  margin-top: -150px; }
+
+/*CIERRE RECOMENDADOS*/
+.ContenidoDrama {
+  display: grid;
+  grid-template-columns: repeat(3, 0.3fr);
+  grid-template-rows: repeat(6, 0.2fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 0px;
+  grid-template-areas: "caaja1 caaja1 caaja1" "cajaa2 caaja2 caaja2" "caaja3 caaja3 caaja3" "caaja4 . caaja5" "caaja6 caaja6 caaja6"; }
+
+.caaja1 {
+  grid-area: caaja1; }
+
+.caaja2 {
+  grid-area: caaja2; }
+
+.caaja3 {
+  grid-area: caaja3; }
+
+.caaja4 {
+  grid-area: caaja4; }
+
+.caaja5 {
+  grid-area: caaja5; }
+
+.caaja6 {
+  grid-area: caaja6; }
+
+.caaja1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 120px; }
+
+.caaja2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  margin-top: 20px; }
+
+.caaja3 {
+  display: flex;
+  flex-direction: column;
+  margin-top: -580px; }
+
+.caaja4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: -100px;
+  margin-bottom: 300px; }
+
+.caaja5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: -450px;
+  margin-bottom: -130px;
+  margin-left: -150px; }
+
+.caaja6 {
+  margin-top: -260px; }
+
+/*Estilo Drama*/
+.TituloDrama {
+  color: linen;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-decoration: underline;
+  animation-name: aparecerGaleria;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+.VolverDrama {
+  font-size: 40px;
+  font-family: initial;
+  color: maroon;
+  margin-top: 100px;
+  margin-bottom: -300px;
+  margin-left: 400px;
+  animation-name: aparecerGaleria;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+/*Cierre Estilo Drama*/
+/*Terror GRIDS+FLEX*/
+.ContainerTerror {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 0.3fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 5px;
+  grid-template-areas: "cajaa1 cajaa1 cajaa1" "cajaa2 cajaa2 cajaa2" ". . ." ". . cajaa4" "cajaa5 cajaa5 cajaa5"; }
+
+.cajaa1 {
+  grid-area: cajaa1; }
+
+.cajaa2 {
+  grid-area: cajaa2; }
+
+.cajaa3 {
+  grid-area: cajaa3; }
+
+.cajaa4 {
+  grid-area: cajaa4; }
+
+.cajaa5 {
+  grid-area: cajaa5; }
+
+.cajaa1 {
+  display: flex;
+  flex-direction: column; }
+
+.cajaa2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+.cajaa3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+.cajaa4 {
+  display: flex;
+  flex-direction: row;
+  margin-left: -180px; }
+
+.cajaa5 {
+  display: flex;
+  flex-direction: column;
+  margin-top: -100px; }
+
+.videoTerror {
+  height: 200px;
+  width: 380px; }
+
+.VolverArriba1 {
+  color: mediumblue;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-decoration: underline;
+  animation-name: aparecerGaleria;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+.TituloTerror {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+  animation-name: aparecerGaleria;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+/*Index GRID*/
+.containerIndex {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: repeat(2, 0.2fr) 0.3fr 0.2fr repeat(2, 0.1fr) 0.3fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-areas: "Caja1 . ." ". Caja2 ." ". Caja4 ." ". Caja5 ." ". . Caja6" ". Caja7 ."; }
+
+.Caja1 {
+  grid-area: Caja1; }
+
+.Caja2 {
+  grid-area: Caja2; }
+
+.Caja3 {
+  grid-area: Caja3; }
+
+.Caja4 {
+  grid-area: Caja4; }
+
+.Caja5 {
+  grid-area: Caja5; }
+
+.Caja6 {
+  grid-area: Caja6; }
+
+.caja7 {
+  grid-area: Caja7; }
+
+.Caja8 {
+  grid-area: Caja8; }
+
+.Caja1 {
+  display: flex;
+  flex-direction: column; }
+
+.Caja2 {
+  display: flex;
+  flex-direction: column; }
+  .Caja2 .InicioRecomendadas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+  .Caja2 .RemomendacionesIndex {
+    text-align: 40px;
+    text-decoration: underline;
+    margin-top: 10px;
+    animation-name: aparecerGaleria;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; }
+
+.Caja4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+  .Caja4 .ig-1 {
+    margin-right: 30px; }
+  .Caja4 .ig-2 {
+    margin-right: 30px; }
+  .Caja4 .ig-3 {
+    margin-right: 30px; }
+
+.Caja5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: -150px; }
+  .Caja5 .videoInicio1 {
+    height: 280px;
+    width: 370px; }
+
+.Caja6 {
+  margin-top: 50px; }
+
+.Caja7 {
+  margin-left: 500px; }
+
+.Fixed {
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  color: black;
+  padding-right: 1px;
+  text-indent: 0px;
+  text-align: center;
+  background-color: chartreuse;
+  font-family: 'Pacifico', cursive;
+  margin-left: 340px; }
+
+.TituloIndex {
+  color: blue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: bold;
+  animation-name: aparecer5;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  margin-top: 90px; }

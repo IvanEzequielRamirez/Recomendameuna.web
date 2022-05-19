@@ -1,0 +1,727 @@
+
+
+.Fixed{
+width: 90px;
+height: 90px;
+position: fixed;
+top: 0px;
+left: 0px;
+color: black;
+padding-right: 1px;
+text-indent: 0px;
+text-align: center;
+background-color: chartreuse;
+font-family: 'Pacifico', cursive;
+margin-left: 350px;
+
+}
+
+/*Index CSS*/
+
+
+.BodyIndex{
+    
+    background-image: linear-gradient( to bottom, aquamarine, white)
+}
+
+
+
+.InicioRecomendadas{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+.TituloIndex{
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: bold;
+    animation-name: aparecer3;
+    animation-duration: 5s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+ margin-top: 80px;
+
+}
+
+
+
+
+
+
+.PortadaIndex{
+    margin-top: 50px;
+    
+}
+
+.CategoriasIndex{
+    font-size: 30px;
+    color: blueviolet;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+@keyframes aparecer14{
+
+    0% {opacity: 5%;
+        transform: translateX(-30px);
+    }
+
+    20% {opacity: 10%;
+    }
+
+    40% {opacity: 30%;
+    }
+
+    60% {opacity: 60%;
+    }
+
+
+    80% {opacity: 80%;
+    }
+
+    100% {opacity: 100%;
+        transform: translate(100px);
+    }
+}
+
+.RemomendacionesIndex{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 50px;
+    animation-name: aparecer14;
+    animation-duration: 8s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+}
+
+
+.GaleriaContainer{
+    margin-top:80px;
+    justify-content: center;
+   
+}
+
+
+.ContainerFotos{
+    margin-left: 50px;
+}
+
+
+.ReseñasIndex{
+    text-align: center;
+    color: blueviolet;
+    text-decoration: underline;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.foto4{
+    transition: height 5s, width 5s;
+
+}
+
+.foto4:hover{
+    height: 380px; width: 240px;
+    transform:scale(1.0);
+}
+
+.foto3{
+    transition: height 5s, width 5s;
+
+}
+
+.foto3:hover{
+    height: 380px; width: 240px;
+    transform:scale(1.0);
+}
+
+
+
+.foto2{
+    transition: height 5s, width 5s;
+
+}
+
+.foto2:hover{
+    height: 380px; width: 240px;
+    transform:scale(1.0);
+}
+
+
+.foto1{
+    transition: height 5s, width 5s;
+
+}
+
+.foto1:hover{
+    height: 380px; width: 240px;
+    transform:scale(1.0);
+}
+
+
+.ContactoContainer{
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.RedesIndex{
+    margin-top:100px;
+}
+
+.VideoIndex1{
+    width: 470px;
+    height: 290px;
+
+}
+
+.VideoIndex2{
+    width: 470px;
+    height: 290px;
+    margin-bottom: 100px;
+
+}
+
+
+.FooterIndex{
+    margin-top: 100px;
+}
+
+
+
+@keyframes aparecer3{
+
+    0% {opacity: 5%;
+    }
+
+    20% {opacity: 10%;
+    }
+
+    40% {opacity: 30%;
+    }
+
+    60% {opacity: 60%;
+    }
+
+
+    80% {opacity: 80%;
+    }
+
+    100% {opacity: 100%;
+    }
+}
+ 
+.LoginIndex{
+    display: flex;
+    justify-content: center;
+}
+
+
+.ParrafoIndex{
+    
+    animation-name: aparecer3;
+    animation-duration: 5s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+}
+
+
+.footer{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.Recomendados{
+    color: blue;
+    text-align: center;
+    font-size: medium;
+    margin-top: 100px;
+}
+
+.ListaRecomendados{
+    color: cornsilk;
+    font-size: 20px;
+}
+
+.VolverArriba{
+    font-size: 20px;
+    color: crimson;
+}
+
+@media screen and (max-width: 500px){
+    .PortadaIndex{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width: 100px;
+    }
+
+
+
+    .ImagenFondo{
+     width: 180px;
+     height: 80px;
+       
+    }
+
+    .VideoIndex1{
+        width: 120px;
+        height: 70px;
+        margin-left: auto;
+    }
+
+    .VideoIndex2{
+        width: 120px;
+        height: 70px;
+        margin-left: auto;
+    }
+
+    .FooterIndex{
+        font-size: 100px;
+    }
+    
+    .RedesIndex{
+        font-size: 50px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+
+    .PortadaIndex{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width: 100px;
+    }
+
+
+    .RecomendacionesBody{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+.RemomendacionesIndex{
+    font-size: 18px;
+}
+
+.ImagenFondo {
+    width: 180px;
+    height: 80px;
+}
+
+
+    .VideoIndex1{
+        width: 230px;
+        height: 100px;   
+        margin-left: auto;
+    }
+
+    .VideoIndex2{
+        width: 230px;
+        height: 100px;
+   
+    }
+
+    .RedesIndex{
+        display: flex;
+        flex-direction: column;
+        font-size: 100px;
+        margin-top: 50px;
+    }
+
+
+
+}
+
+
+/*Recomendaciones CSS*/
+
+.RecomendacionesBody{
+   
+    background-image: linear-gradient( to bottom, blueviolet, white)
+}
+
+@keyframes aparecer5{
+
+    10% {opacity: 5%;
+    }
+
+    20% {opacity: 10%;
+    }
+
+    40% {opacity: 30%;
+    }
+
+    60% {opacity: 60%;
+    }
+
+
+    80% {opacity: 80%;
+    }
+
+    100% {opacity: 100%;
+    }
+}
+
+.TituloCines{
+    color: black;
+    animation-name: aparecer5;
+    animation-duration: 8s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+}
+
+@keyframes colorfondo{
+    0%{
+        background-color: white;
+    }
+    40%{
+    background-color: gray;
+    }
+
+    80%{
+        background-color:lemonchiffon;
+    }
+
+    100%{
+        background-color:lightsalmon;
+    }
+
+}
+
+.SubParrafoCines{
+    font-size: 50px;
+    animation-name: colorfondo;
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+
+.InicioRecomendadas{
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.MapaRecomendados{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.FotoRecomendado{
+    width: 286px;
+    height: 150px;
+}
+
+.Mapa1{
+        width: 500px;
+        height: 300px;
+        margin-bottom: 100px;
+    }
+
+
+    
+    @media screen and (max-width: 300px){
+
+        .Mapa1{
+            width: 220px;
+            height: 160px;
+            margin-bottom: 50px;
+        }
+
+        .FotoRecomendado{
+            width: 220px;
+            height: 160px;
+            margin-bottom: 50px;
+        }
+
+
+    }
+
+    
+@media screen and (max-width: 546px){
+
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+    .Mapa1{
+        width: 350px;
+        height: 200px;
+        margin-bottom: 50px;
+    }
+
+    .TextoCine{
+        font-size: 20px;
+    }
+
+    .FotoRecomendado{
+        width: 150px;
+        height: 100px;
+        margin-bottom: 5px;
+     
+    }
+
+    .InicioRecomendadas{
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Descripcion1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .MapaRecomendado{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .FormularioRecomendados{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+/*THRILLER BOOTSTRAP-ANIMACIONES*/
+
+.BodyThriller{
+    background-image: linear-gradient( to bottom, rgb(209, 173, 201) , rgb(119, 41, 102))
+}
+
+
+@keyframes aparecer20{
+
+    10% {opacity: 5%;
+    }
+
+    20% {opacity: 10%;
+    }
+
+    40% {opacity: 30%;
+    }
+
+    60% {opacity: 60%;
+    }
+
+
+    80% {opacity: 80%;
+    }
+
+    100% {opacity: 100%;
+    }
+}
+
+.TituloRecomendaciones{
+    animation-name: aparecer20;
+    animation-duration: 8s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+ margin-bottom: 100px;
+}
+
+.PeliculaThriller{
+    margin-bottom: 100px;
+}
+
+.CardThriller{
+    margin-left: 100px;
+}
+
+.TituloTrailerThriller1{
+    list-style-type: none;
+}
+
+.FooterThriller{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.TrailerThriller{
+    transition: height 5s, width 5s;
+
+}
+
+.TrailerThriller:hover{
+    height: 470px; width: 720px;
+    transform:scale(1.0);
+}
+
+@keyframes aparecer21{
+
+    0% {opacity: 5%;
+        transform: translateX(-30px);
+    }
+
+    20% {opacity: 10%;
+    }
+
+    40% {opacity: 30%;
+    }
+
+    60% {opacity: 60%;
+    }
+
+
+    80% {opacity: 80%;
+    }
+
+    100% {opacity: 100%;
+        transform: translate(100px);
+    }
+}
+
+.TituloTrailerThriller1{
+animation-name: aparecer21;
+animation-duration: 8s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+
+
+@media screen and (max-width: 546px){
+     
+    .TrailerThriller{
+        width: 350px;
+        height: 250px;
+}
+
+.TrailerThriller{
+    transition: height 5s, width 5s;
+
+}
+
+.TrailerThriller:hover{
+    height: 180px; width: 220px;
+    transform:scale(1.0);
+}
+
+.CardThriller{
+    margin-left: 20px;
+}
+
+}
+
+
+/*Terror BOOTSTRAP-ANIMACIONES*/
+
+.BodyTerror{
+    background-image: linear-gradient( to bottom, rgb(58, 3, 3) , rgb(247, 93, 33))
+}
+
+@keyframes TituloTerror{
+    0%{
+        background-color: rgb(49, 18, 161);
+    }
+    40%{
+    background-color: rgb(77, 92, 179);
+    }
+
+    80%{
+        background-color:rgb(95, 144, 163);
+    }
+
+    100%{
+        background-color:rgb(190, 224, 243);
+    }
+    
+    }
+
+
+.RecomendacionTerror1{
+
+    animation-name: TituloTerror;
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+
+.TituloTerror{
+    margin-bottom: 50px;
+}
+
+.ColumnaTerror{
+    margin-top: 100px;
+}
+
+
+.TablaTerror1{
+    transition: height 2s, width 2s;
+    
+}
+    
+.TablaTerror1:hover{
+        height: 380px; width: 620px;
+        transform:scale(1.0);
+    }
+
+.FooterTerror{
+    display: flex;
+    justify-content: end;
+}
+
+@keyframes aparecer31{
+
+    15% {opacity: 20%;
+        transform: translateX(-30px);
+    }
+
+    30% {opacity: 30%;
+    }
+
+
+    50% {opacity: 60%;
+    }
+
+
+    80% {opacity: 80%;
+    }
+
+    100% {opacity: 100%;
+        transform: translate(100px);
+    }
+}
+
+.VolverArriba1{
+    animation-name: aparecer31;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@media screen and (max-width: 546px){
+
+    .TablaTerror1{
+        transition: height 2s, width 2s;
+        
+    }
+        
+    .TablaTerror1:hover{
+            height: 180px; width: 220px;
+            transform:scale(1.0);
+        }
+
+        
+.TrailerTerror1{
+    width: 320px;
+    height: 180px;
+}
+
+}
